@@ -39,23 +39,24 @@ A fully functional Rock Paper Scissors game built using **HTML**, **CSS**, **Jav
 
 ### 📁 Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/rock-paper-scissors.git
+
+git clone https://github.com/PolaboinaArun/rock-paper-scissors.git
 cd rock-paper-scissors
 
+
 💻 Run Locally
+
 You can simply open the index.html file in your browser:
+* open index.html or drag-and-drop it into a web browser window.
 
-bash
-Copy code
-open index.html
-Or drag-and-drop it into a web browser window.
-
+🚀 Live Demo
+🔗 GitHub Pages:
+[https://polaboinaarun.github.io/Rock-Paper-Scissors/]
 
 🗂️ Project Structure
-bash
-Copy code
-rock-paper-scissors/
+* bash
+* Copy code
+* rock-paper-scissors/
 ├── index.html
 ├── RPS.css
 ├── RPS.js
@@ -65,25 +66,21 @@ rock-paper-scissors/
 │   └── Scissors-emoji.png
 └── README.md
 
-
 🧠 How It Works
-
  * User clicks on a move (Rock, Paper, or Scissors).
  * Computer randomly selects a move.
  * Game logic determines the winner.
  * Scores are updated and stored in localStorage.
  * UI displays the outcome and score live.
 
-
 🧼 Reset Function
-
  * Clicking the Reset button:
  * Clears localStorage
  * Resets all score counters to zero
  * Clears the result display
 
-
 ✍️ Author
-Polaboina Arun
-📧 [polaboinaarun143pu@gmail.com]
-📦 GitHub: polaboinaarun
+
+ * Polaboina Arun
+ * 📧 [polaboinaarun143pu@gmail.com]
+ * 📦 GitHub: polaboinaarun
