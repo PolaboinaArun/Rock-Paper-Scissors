@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./RPS.css" />
+</head>
+
+<body class="bg-black colour-white text-center p-4">
+
+  <h1 class="mb-4" class="title">ROCK PAPER SCISSORS GAME</h1>
+
+  <div class="container">
+    <div class="row justify-content-center mb-4">
+      <div class="col-4 col-sm-2">
+        <button onclick="playGame('Rock')" class="btn btn-outline-primary w-100">
+          <img src="./images/Rock-emoji.png" alt="Rock" class="img-fluid" class="css-image">
+        </button>
+      </div>
+      <div class="col-4 col-sm-2">
+        <button onclick="playGame('Paper')" class="btn btn-outline-primary w-100 ">
+          <img src="./images/Paper-emoji.png" alt="Paper" class="img-fluid" class="css-image">
+        </button>
+      </div>
+      <div class="col-4 col-sm-2">
+        <button onclick="playGame('Scissors')" class="btn btn-outline-primary w-100">
+          <img src="./images/Scissors-emoji.png" alt="Scissors" class="img-fluid" class="css-image">
+        </button>
+      </div>
+    </div>
+
+    <p class="js-result fw-bold mt-4 fs-2"></p>
+    <p class="js-compare fs-5"></p>
+    <p class="score-board fs-5 mt-3" class="css-score"></p>
+
+    <button onclick="resetGame()" class="btn btn-danger  fs-4 pl-1 w-2" class="css-reset">Reset</button>
+  </div>
+
+  <script src="./RPS.js"></script>
+</body>
+</html>
