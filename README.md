@@ -7,6 +7,7 @@ A fully functional Rock Paper Scissors game built using **HTML**, **CSS**, **Jav
 ## 📌 Features
 
 - 🎮 Play Rock, Paper, or Scissors against a computer opponent.
+- 🔁 **Autoplay mode**: Let the computer play against itself every second.
 - 📈 Keeps track of Wins, Losses, and Ties using `localStorage`.
 - 💡 Dynamic UI updates with emojis representing choices.
 - 🧹 Reset button to clear score history.
@@ -27,9 +28,12 @@ A fully functional Rock Paper Scissors game built using **HTML**, **CSS**, **Jav
 ## 🖼️ Screenshots
 
 
-![image](https://github.com/user-attachments/assets/239034af-6682-4f86-922e-9eb5f843980b)
+![image](https://github.com/user-attachments/assets/9d7badce-fc0b-49e5-8b16-8122910d5410)
 
-![image](https://github.com/user-attachments/assets/d04d8dc4-d915-4833-994b-5fc603fb71a2)
+
+![image](https://github.com/user-attachments/assets/1b6c6c41-ad61-4da8-8e7f-1c53b0d26689)
+
+
 
 
 
@@ -72,6 +76,7 @@ You can simply open the index.html file in your browser:
  * Game logic determines the winner.
  * Scores are updated and stored in localStorage.
  * UI displays the outcome and score live.
+ * Autoplay: When toggled on, the computer plays automatically every 1 second until stopped.
 
 🧼 Reset Function
  * Clicking the Reset button:
