@@ -4,7 +4,21 @@ let updatedScore = JSON.parse(localStorage.getItem('updatedScore')) || {
   Tie: 0
 };
 scoreBoard();
-
+let isAutoPlaying = false;
+let intervalid;
+function autoPlay(){
+  if(!isAutoPlaying){
+  intervalid = setInterval(function(){
+    const playerMove =pickComputerMove();
+    playGame(playerMove);
+  }, 1000);
+  isAutoPlaying = true;
+}else{
+  clearInterval(intervalid);
+  isAutoPlaying = false;
+}
+  }
+  
 function resetGame(){
   updatedScore.wins = 0;
   updatedScore.Losses = 0;
